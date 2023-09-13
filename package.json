@@ -1,0 +1,12 @@
+{
+  "name": "prisma-19124",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "pnpm run -r --parallel prisma-generate"
+  }
+}
